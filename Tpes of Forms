@@ -1,0 +1,51 @@
+(1) Explain the table and its properties?
+
+A table is a way to organize data in a structured format, typically made up of rows and columns. The rows represent individual entries or records, and the columns represent the different fields or attributes of those entries. Each cell in the table contains a specific piece of data, such as a number or a string.
+
+Tables can have various properties, including:
+
+Columns: The number and names of the columns in a table, as well as their data types (e.g. text, number, date).
+Primary key: A primary key is a column or set of columns that uniquely identifies each row in the table. It is used to ensure data integrity and enforce relationships between tables.
+Foreign key: A foreign key is a column or set of columns that references a primary key in another table. It is used to create a link or relationship between the two tables.
+Indexes: An index is a data structure that improves the performance of queries on a table by allowing for faster searching and sorting.
+Constraints: Constraints are rules that govern the data in a table, such as ensuring that a column cannot contain null values or that the values in a column must be unique.
+
+(2) Explain all media elements and how they work?
+
+Media elements are various types of media used in web design, such as text, images, audio, video, iFrames, canvas and SVG. Text is used for written content, images add visual interest, audio adds sound, video adds movement, iFrames embed other HTML documents, canvas is used for dynamic graphics with JavaScript, and SVG is an XML-based vector image format for scalable graphics. All these elements are used together to create an interactive and engaging user experience on a website.
+
+(3) What is get and post in form?
+
+In web development, GET and POST are two commonly used methods for sending data through an HTML form.
+
+GET: When a form is submitted using the GET method, the data is appended to the end of the URL as query parameters. This method is typically used for retrieving data rather than sending data. It's also exposed to the user in the browser's address bar and can be cached by the browser.
+
+POST: When a form is submitted using the POST method, the data is sent in the body of the HTTP request. This method is typically used for sending data to the server, such as when a user submits a login form. Data sent via POST is not exposed to the user and is not cached by the browser.
+
+It's worth noting that GET requests should never be used to send sensitive information, such as login credentials or credit card information, because the information is sent in plain text and can be intercepted by malicious actors. POST requests, on the other hand, should be used to send sensitive information because the data is sent in an encrypted format and is not exposed to the user.
+
+(4) List all the input types we have in form?
+
+There are several input types that can be used in an HTML form, including:
+
+text: A single-line text field for simple text input.
+password: A single-line text field for inputting a password, which masks the characters typed
+radio: A radio button, allowing a single selection from multiple options.
+checkbox: A checkbox, allowing multiple selections.
+submit: A button for submitting the form.
+reset: A button for resetting the form to its default values.
+hidden: A hidden field, which is invisible to the user but can store data.
+file: A field for uploading a file from the user's device.
+number: A field for inputting numerical values.
+color: A field for inputting a color value.
+date: A field for inputting a date value.
+email: A field for inputting an email address.
+tel: A field for inputting a telephone number.
+url: A field for inputting a URL.
+search: A field for inputting a search query.
+range: A slider control for inputting a numeric value within a range.
+time: A field for inputting a time value.
+datetime-local: A field for inputting a date and time value.
+month: A field for inputting a month value.
+week: A field for inputting a week value.
+These input types provide various options for capturing user input and are used in conjunction with the <form> and <input> tags to create an HTML form.
